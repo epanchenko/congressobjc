@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17125"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="T66-7L-mJe" customClass="LegislatorTVCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="T66-7L-mJe" id="wbg-SH-e20">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wKz-ch-lkR">
+                        <rect key="frame" x="21" y="0.0" width="283" height="21"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="H0W-s4-q5C"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" name="BlackorWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="p2T-JB-Hfg">
+                        <rect key="frame" x="21" y="22" width="283" height="18.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" name="BlackorWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="wKz-ch-lkR" firstAttribute="leading" secondItem="p2T-JB-Hfg" secondAttribute="leading" id="NWT-LN-iuv"/>
+                    <constraint firstItem="wKz-ch-lkR" firstAttribute="leading" secondItem="wbg-SH-e20" secondAttribute="leadingMargin" constant="5" id="UUO-Wo-4YS"/>
+                    <constraint firstItem="wKz-ch-lkR" firstAttribute="trailing" secondItem="wbg-SH-e20" secondAttribute="trailingMargin" id="aNY-1C-ZUS"/>
+                    <constraint firstItem="wKz-ch-lkR" firstAttribute="top" secondItem="wbg-SH-e20" secondAttribute="top" id="bpl-5Z-gHp"/>
+                    <constraint firstItem="wKz-ch-lkR" firstAttribute="trailing" secondItem="p2T-JB-Hfg" secondAttribute="trailing" id="eLX-Tb-YE4"/>
+                    <constraint firstItem="p2T-JB-Hfg" firstAttribute="top" secondItem="wKz-ch-lkR" secondAttribute="bottom" constant="1" id="grQ-qX-Vq9"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="p2T-JB-Hfg" secondAttribute="bottom" constant="-7.5" id="lau-wT-RTm"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="location" destination="p2T-JB-Hfg" id="SSm-x1-yZE"/>
+                <outlet property="name" destination="wKz-ch-lkR" id="gg1-Gh-yPz"/>
+            </connections>
+            <point key="canvasLocation" x="25" y="52"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <namedColor name="BlackorWhite">
+            <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+        </namedColor>
+    </resources>
+</document>

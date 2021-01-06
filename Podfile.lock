@@ -1,0 +1,53 @@
+PODS:
+  - AWSCognito (2.9.10):
+    - AWSCore (= 2.9.10)
+  - AWSCore (2.9.10)
+  - AWSDynamoDB (2.9.10):
+    - AWSCore (= 2.9.10)
+  - GZIP (1.3.0)
+  - HTMLReader (2.1)
+  - iOS-Slide-Menu (1.5)
+  - Toast (4.0.0)
+  - VBPieChart (1.2.1)
+  - vfrReader (2.8.6)
+  - XMLDictionary (1.4.1)
+
+DEPENDENCIES:
+  - AWSCognito
+  - AWSDynamoDB
+  - GZIP (~> 1.3)
+  - HTMLReader
+  - iOS-Slide-Menu (~> 1.5)
+  - Toast (~> 4.0.0)
+  - VBPieChart (~> 1.2.1)
+  - vfrReader (~> 2.8.6)
+  - XMLDictionary (~> 1.4.1)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AWSCognito
+    - AWSCore
+    - AWSDynamoDB
+    - GZIP
+    - HTMLReader
+    - iOS-Slide-Menu
+    - Toast
+    - VBPieChart
+    - vfrReader
+    - XMLDictionary
+
+SPEC CHECKSUMS:
+  AWSCognito: 1dd5b0e1d9e0706f9757ccce7c6fad9dc1d25ddb
+  AWSCore: 22b6bbc6761ca9981d878155d11bc02edd681a64
+  AWSDynamoDB: 87d0b2f44fc85f719921ad2df0dcc4c31c9be96a
+  GZIP: 416858efbe66b41b206895ac6dfd5493200d95b3
+  HTMLReader: dd75279b0532ff5d005ffe1c6512e33d1d52f861
+  iOS-Slide-Menu: 40b0cbd8916c42afc755f0869793cd09e7a32102
+  Toast: 91b396c56ee72a5790816f40d3a94dd357abc196
+  VBPieChart: dc43077e24bf56f53d8f645eb8369f91ecc6f136
+  vfrReader: 94ea739a545e39093c93802ca1c5b203a5df46b1
+  XMLDictionary: fa07b6ff422b3a91d47a5de9bc82e3fc04fbd167
+
+PODFILE CHECKSUM: 491ed396ffaa6edab465d6cd73b89aed8b55e163
+
+COCOAPODS: 1.5.2

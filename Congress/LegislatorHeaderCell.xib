@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14868" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina5_5" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14824"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="LegislatorHeaderCell" rowHeight="112" id="EkW-c6-BWh" customClass="LegislatorHeaderCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="112"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="EkW-c6-BWh" id="49L-cs-aPd">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="112"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tCU-dp-qOX">
+                        <rect key="frame" x="137" y="6" width="167" height="0.0"/>
+                        <color key="backgroundColor" systemColor="secondarySystemBackgroundColor" red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" name="BlackorWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" verticalCompressionResistancePriority="751" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oJI-7A-D83">
+                        <rect key="frame" x="137" y="10.666666666666666" width="167" height="0.0"/>
+                        <color key="backgroundColor" systemColor="secondarySystemBackgroundColor" red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" name="BlackorWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" verticalCompressionResistancePriority="751" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="S6W-yP-wkt">
+                        <rect key="frame" x="137" y="95.666666666666671" width="167" height="0.0"/>
+                        <color key="backgroundColor" systemColor="secondarySystemBackgroundColor" red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" name="BlackorWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalCompressionResistancePriority="751" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lvb-JH-H8G">
+                        <rect key="frame" x="137" y="15" width="167" height="76"/>
+                        <color key="backgroundColor" systemColor="secondarySystemBackgroundColor" red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" name="BlackorWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="1F5-kO-6AT">
+                        <rect key="frame" x="26" y="11" width="100" height="85"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="85" id="M5H-ZA-Lon"/>
+                            <constraint firstAttribute="width" constant="100" id="WAU-vZ-Bbh"/>
+                        </constraints>
+                    </imageView>
+                </subviews>
+                <color key="backgroundColor" systemColor="secondarySystemBackgroundColor" red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                <constraints>
+                    <constraint firstItem="oJI-7A-D83" firstAttribute="top" secondItem="tCU-dp-qOX" secondAttribute="bottom" constant="4.5" id="2Fk-ky-UDB"/>
+                    <constraint firstAttribute="leadingMargin" secondItem="1F5-kO-6AT" secondAttribute="leading" constant="-10" id="2dy-15-UYU"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="tCU-dp-qOX" secondAttribute="trailing" id="2jF-ga-KJ2"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="S6W-yP-wkt" secondAttribute="bottom" constant="5.5" id="H8P-8X-FIv"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="S6W-yP-wkt" secondAttribute="trailing" id="NP2-Hl-kbt"/>
+                    <constraint firstItem="tCU-dp-qOX" firstAttribute="leading" secondItem="1F5-kO-6AT" secondAttribute="trailing" constant="11" id="Pmi-a5-0gD"/>
+                    <constraint firstItem="lvb-JH-H8G" firstAttribute="leading" secondItem="1F5-kO-6AT" secondAttribute="trailing" constant="11" id="Zqv-5M-DmZ"/>
+                    <constraint firstAttribute="topMargin" secondItem="1F5-kO-6AT" secondAttribute="top" id="aTW-Mz-S07"/>
+                    <constraint firstItem="S6W-yP-wkt" firstAttribute="leading" secondItem="1F5-kO-6AT" secondAttribute="trailing" constant="11" id="d92-bA-XRX"/>
+                    <constraint firstItem="tCU-dp-qOX" firstAttribute="top" secondItem="1F5-kO-6AT" secondAttribute="top" id="ejG-Dh-LcK"/>
+                    <constraint firstItem="oJI-7A-D83" firstAttribute="leading" secondItem="1F5-kO-6AT" secondAttribute="trailing" constant="11" id="g3C-xG-kOU"/>
+                    <constraint firstAttribute="topMargin" secondItem="tCU-dp-qOX" secondAttribute="top" constant="5" id="mzc-n4-Fdf"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="oJI-7A-D83" secondAttribute="trailing" id="rBZ-2k-hkt"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="lvb-JH-H8G" secondAttribute="trailing" id="rMY-6H-cv5"/>
+                    <constraint firstItem="S6W-yP-wkt" firstAttribute="top" secondItem="lvb-JH-H8G" secondAttribute="bottom" constant="4.5" id="wYL-l1-FWT"/>
+                    <constraint firstItem="lvb-JH-H8G" firstAttribute="top" secondItem="oJI-7A-D83" secondAttribute="bottom" constant="4.5" id="yXm-aS-AXD"/>
+                </constraints>
+                <variation key="default">
+                    <mask key="constraints">
+                        <exclude reference="ejG-Dh-LcK"/>
+                    </mask>
+                </variation>
+            </tableViewCellContentView>
+            <color key="backgroundColor" systemColor="secondarySystemBackgroundColor" red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color key="tintColor" name="BlackorWhite"/>
+            <connections>
+                <outlet property="legislatorImageView" destination="1F5-kO-6AT" id="Qkm-U0-6pJ"/>
+                <outlet property="name2Label" destination="lvb-JH-H8G" id="GkF-4T-w0J"/>
+                <outlet property="nameLabel" destination="tCU-dp-qOX" id="WWw-Qz-lCe"/>
+                <outlet property="nextElectionLabel" destination="S6W-yP-wkt" id="1MS-k7-ygN"/>
+                <outlet property="roleLabel" destination="oJI-7A-D83" id="vUn-v1-Jr6"/>
+            </connections>
+            <point key="canvasLocation" x="341" y="318"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <namedColor name="BlackorWhite">
+            <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+        </namedColor>
+    </resources>
+</document>

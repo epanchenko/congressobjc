@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14868" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14824"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="92" id="xRQ-pY-pa8" customClass="LegislatorVoteCellTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="92"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="xRQ-pY-pa8" id="47D-Fy-suh">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="92"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="751" verticalHuggingPriority="751" horizontalCompressionResistancePriority="751" verticalCompressionResistancePriority="751" text="" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pFx-Vd-XZP">
+                        <rect key="frame" x="13" y="8" width="302" height="0.0"/>
+                        <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                        <color key="textColor" name="BlackorWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="750" verticalHuggingPriority="750" text="" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aQA-o9-uup">
+                        <rect key="frame" x="13" y="14" width="302" height="0.0"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" name="BlackorWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gWX-Os-Bvc">
+                        <rect key="frame" x="13" y="22" width="302" height="62.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" name="BlackorWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="pFx-Vd-XZP" firstAttribute="leading" secondItem="47D-Fy-suh" secondAttribute="leading" constant="13" id="347-D5-ydG"/>
+                    <constraint firstItem="aQA-o9-uup" firstAttribute="top" secondItem="pFx-Vd-XZP" secondAttribute="bottom" constant="6" id="7j3-VX-J6g"/>
+                    <constraint firstItem="pFx-Vd-XZP" firstAttribute="top" secondItem="47D-Fy-suh" secondAttribute="top" constant="8" id="8Vl-64-TXF"/>
+                    <constraint firstItem="aQA-o9-uup" firstAttribute="leading" secondItem="47D-Fy-suh" secondAttribute="leading" constant="13" id="DA3-OF-eK6"/>
+                    <constraint firstItem="gWX-Os-Bvc" firstAttribute="top" secondItem="aQA-o9-uup" secondAttribute="bottom" constant="8" id="F9f-oq-Xu9"/>
+                    <constraint firstAttribute="trailing" secondItem="gWX-Os-Bvc" secondAttribute="trailing" constant="5" id="V4Q-di-Rg8"/>
+                    <constraint firstAttribute="bottom" secondItem="gWX-Os-Bvc" secondAttribute="bottom" constant="7.5" id="lBQ-JV-Jpg"/>
+                    <constraint firstAttribute="trailing" secondItem="pFx-Vd-XZP" secondAttribute="trailing" constant="5" id="qxG-M1-3rc"/>
+                    <constraint firstItem="gWX-Os-Bvc" firstAttribute="leading" secondItem="47D-Fy-suh" secondAttribute="leading" constant="13" id="tmI-OU-IvA"/>
+                    <constraint firstAttribute="trailing" secondItem="aQA-o9-uup" secondAttribute="trailing" constant="5" id="xQS-OP-Krq"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="billTitle" destination="pFx-Vd-XZP" id="hUa-Tt-NlF"/>
+                <outlet property="question" destination="aQA-o9-uup" id="7Xy-N8-I1F"/>
+                <outlet property="resultLabel" destination="gWX-Os-Bvc" id="VP3-2d-jh4"/>
+            </connections>
+            <point key="canvasLocation" x="143" y="294"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <namedColor name="BlackorWhite">
+            <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+        </namedColor>
+    </resources>
+</document>

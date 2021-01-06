@@ -1,0 +1,1119 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0707DC9B1D32F2D9004F7677 /* RollCall.m in Sources */ = {isa = PBXBuildFile; fileRef = 0707DC9A1D32F2D9004F7677 /* RollCall.m */; };
+		0736142F1CED2A78009F45D4 /* ContactTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0736142E1CED2A78009F45D4 /* ContactTableViewController.m */; };
+		073C8A091BB71AC100795BA4 /* Committee.m in Sources */ = {isa = PBXBuildFile; fileRef = 073C8A081BB71AC100795BA4 /* Committee.m */; };
+		073F9E0C1D7B467E00253E7A /* FavoritesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 073F9E0B1D7B467E00253E7A /* FavoritesViewController.m */; };
+		076DD9631D61211400D88F3B /* NominationShort.m in Sources */ = {isa = PBXBuildFile; fileRef = 076DD9621D61211400D88F3B /* NominationShort.m */; };
+		077CD6FE1D61145A0078643F /* NominationTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 077CD6FD1D61145A0078643F /* NominationTableViewController.m */; };
+		0784796F1D15B20C00AB21F9 /* UIColor+Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = 0784796E1D15B20C00AB21F9 /* UIColor+Constants.m */; };
+		0785A2F81BA7E98100E1F450 /* LegislatorDetailVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0785A2F71BA7E98100E1F450 /* LegislatorDetailVC.m */; };
+		07898E1B1D5A72CF009E70FD /* Nomination.m in Sources */ = {isa = PBXBuildFile; fileRef = 07898E1A1D5A72CF009E70FD /* Nomination.m */; };
+		079F62591BA49CAC00AB2336 /* Progress.m in Sources */ = {isa = PBXBuildFile; fileRef = 079F62581BA49CAC00AB2336 /* Progress.m */; };
+		07B4F7B51D446ADE001AE7F8 /* Bill.m in Sources */ = {isa = PBXBuildFile; fileRef = 07B4F7B41D446ADE001AE7F8 /* Bill.m */; };
+		07BD24861D15DE1B003D4664 /* LegislatorVoteCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 07BD24851D15DE1B003D4664 /* LegislatorVoteCell.xib */; };
+		07CA2DF91D73C62D007FBBB4 /* RealmFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = 07CA2DF81D73C62D007FBBB4 /* RealmFunctions.m */; };
+		07CA2DFC1D73C733007FBBB4 /* FavoriteBill.m in Sources */ = {isa = PBXBuildFile; fileRef = 07CA2DFB1D73C733007FBBB4 /* FavoriteBill.m */; };
+		07CA2DFE1D73C7D2007FBBB4 /* libc++.1.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 07CA2DFD1D73C7D2007FBBB4 /* libc++.1.tbd */; };
+		07CA2E011D73C949007FBBB4 /* FavoriteLegislator.m in Sources */ = {isa = PBXBuildFile; fileRef = 07CA2E001D73C949007FBBB4 /* FavoriteLegislator.m */; };
+		07CA2E041D73C974007FBBB4 /* FavoriteCommittee.m in Sources */ = {isa = PBXBuildFile; fileRef = 07CA2E031D73C974007FBBB4 /* FavoriteCommittee.m */; };
+		07DAEBBC1D4414DB00218DEE /* BillDetailTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07DAEBBB1D4414DB00218DEE /* BillDetailTableViewController.m */; };
+		37730E38F2FAD70BC14E320E /* libPods-CongressTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F94B78C0B108FD57534A1B6E /* libPods-CongressTests.a */; };
+		EF1429D51BB1064C0053395B /* LegislatorBioViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF1429D41BB1064C0053395B /* LegislatorBioViewController.m */; };
+		EF1551911B9E1E9C00CBADBA /* LegislatorHeaderCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF1551901B9E1E9C00CBADBA /* LegislatorHeaderCell.xib */; };
+		EF1551941B9E1F4C00CBADBA /* LegislatorHeaderCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EF1551931B9E1F4C00CBADBA /* LegislatorHeaderCell.m */; };
+		EF5234D51BAF5DD00019B26F /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF5234D41BAF5DD00019B26F /* MapViewController.m */; };
+		EF5234E41BAFB0510019B26F /* LegislatorMapOverlayRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = EF5234E31BAFB0510019B26F /* LegislatorMapOverlayRenderer.m */; };
+		EF908D6B1B9920AA00EA765B /* UIAlertController+Blocks.m in Sources */ = {isa = PBXBuildFile; fileRef = EF908D6A1B9920AA00EA765B /* UIAlertController+Blocks.m */; };
+		EFC1C5B51B9C8406002347BC /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = EFC1C5B41B9C8406002347BC /* Constants.m */; };
+		EFD9BA831B9CE75000216DE1 /* UIViewController+PartialDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = EFD9BA821B9CE75000216DE1 /* UIViewController+PartialDictionary.m */; };
+		EFD9BA8B1B9D19FC00216DE1 /* search.png in Resources */ = {isa = PBXBuildFile; fileRef = EFD9BA8A1B9D19FC00216DE1 /* search.png */; };
+		EFE1591C1B9272B200CB0CC4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EFE1591B1B9272B200CB0CC4 /* main.m */; };
+		EFE1591F1B9272B200CB0CC4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EFE1591E1B9272B200CB0CC4 /* AppDelegate.m */; };
+		EFE1592A1B9272B200CB0CC4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFE159291B9272B200CB0CC4 /* Images.xcassets */; };
+		EFE1592D1B9272B200CB0CC4 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EFE1592B1B9272B200CB0CC4 /* LaunchScreen.xib */; };
+		EFE159391B9272B200CB0CC4 /* CongressTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EFE159381B9272B200CB0CC4 /* CongressTests.m */; };
+		EFE159471B92751100CB0CC4 /* LegislatorsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EFE159461B92751100CB0CC4 /* LegislatorsViewController.m */; };
+		EFE1594A1B9276BA00CB0CC4 /* LegislatorTVCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EFE159491B9276BA00CB0CC4 /* LegislatorTVCell.m */; };
+		EFE159501B9283ED00CB0CC4 /* Legislator.m in Sources */ = {isa = PBXBuildFile; fileRef = EFE1594F1B9283ED00CB0CC4 /* Legislator.m */; };
+		F12FBE3486E99B0F693F1BD8 /* libPods-Congress.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8868ADA8FF3CF8A6A8045763 /* libPods-Congress.a */; };
+		F20B3F7F1D45C299004FDA8E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F20B3F7E1D45C299004FDA8E /* UIKit.framework */; };
+		F20B3F811D45C2A1004FDA8E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F20B3F801D45C2A1004FDA8E /* Foundation.framework */; };
+		F20B3F831D45C2A9004FDA8E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F20B3F821D45C2A9004FDA8E /* CoreGraphics.framework */; };
+		F20B3F851D45C2B0004FDA8E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F20B3F841D45C2B0004FDA8E /* QuartzCore.framework */; };
+		F20B3F871D45C2B7004FDA8E /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F20B3F861D45C2B7004FDA8E /* ImageIO.framework */; };
+		F20B3F891D45C2FF004FDA8E /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F20B3F881D45C2FF004FDA8E /* MessageUI.framework */; };
+		F20B9448245D38650091A996 /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F20B9447245D38650091A996 /* Realm.framework */; };
+		F20DBA9C1D85FD1600CF0E82 /* ShowNoAnimationSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = F20DBA9B1D85FD1600CF0E82 /* ShowNoAnimationSegue.m */; };
+		F20F8CF11CF24295006C537F /* Vote.m in Sources */ = {isa = PBXBuildFile; fileRef = F20F8CF01CF24295006C537F /* Vote.m */; };
+		F21BD5801F3764B700EADAA4 /* RealmString.m in Sources */ = {isa = PBXBuildFile; fileRef = F21BD57F1F3764B700EADAA4 /* RealmString.m */; };
+		F21E3A681D30AE05001E888D /* RollCallTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F21E3A671D30AE05001E888D /* RollCallTVC.m */; };
+		F220F0F521CEF9B4002EF60E /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = F220F0F321CEF9B3002EF60E /* MBProgressHUD.m */; };
+		F240E1AA1D03D1D200A076BC /* LegislatorVoteCellTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F240E1A91D03D1D200A076BC /* LegislatorVoteCellTableViewCell.m */; };
+		F244B2241F802AC600D3A27A /* DataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F244B2231F802AC600D3A27A /* DataManager.m */; };
+		F244B2261F802B1C00D3A27A /* VotesTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F244B2251F802B1C00D3A27A /* VotesTVC.m */; };
+		F24C11A31CE81A5C008C328F /* WebpageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F24C11A21CE81A5C008C328F /* WebpageViewController.m */; };
+		F250B91A1F0DD01400C8728D /* TermsTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F250B9191F0DD01400C8728D /* TermsTVC.m */; };
+		F251897F1F8F0D170061B951 /* LeftMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F251897E1F8F0D170061B951 /* LeftMenuViewController.m */; };
+		F25776811F3D6F3200F481F4 /* AWSVoteTableRow.m in Sources */ = {isa = PBXBuildFile; fileRef = F25776801F3D6F3200F481F4 /* AWSVoteTableRow.m */; };
+		F2591FF11E2DC0A500756455 /* CommitteesTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F2591FF01E2DC0A500756455 /* CommitteesTVC.m */; };
+		F2591FF31E2DC18200756455 /* LegislatorTVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F2591FF21E2DC18200756455 /* LegislatorTVCell.xib */; };
+		F2591FF61E2DC1BB00756455 /* NominationDetailTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2591FF51E2DC1BB00756455 /* NominationDetailTableViewController.m */; };
+		F25920311E2DC2B300756455 /* TVCMethods.m in Sources */ = {isa = PBXBuildFile; fileRef = F25920301E2DC2B300756455 /* TVCMethods.m */; };
+		F259E42C1F2E64F0005B56AF /* AWSLegislatorTableRow.m in Sources */ = {isa = PBXBuildFile; fileRef = F259E42B1F2E64F0005B56AF /* AWSLegislatorTableRow.m */; };
+		F25CE5A91E42DB4A003E3416 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F25CE5A81E42DB4A003E3416 /* CoreTelephony.framework */; };
+		F26ED88C1F74CEB800D25F11 /* AWSNominationTableRow.m in Sources */ = {isa = PBXBuildFile; fileRef = F26ED88B1F74CEB800D25F11 /* AWSNominationTableRow.m */; };
+		F271B9EF1D484E550028E33B /* DynamicTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F271B9EE1D484E550028E33B /* DynamicTableViewCell.m */; };
+		F271B9F21D48710B0028E33B /* Action.m in Sources */ = {isa = PBXBuildFile; fileRef = F271B9F11D48710B0028E33B /* Action.m */; };
+		F271B9F81D48734C0028E33B /* ActionTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F271B9F71D48734C0028E33B /* ActionTableViewController.m */; };
+		F271CF361D3C7D9F004159CD /* ProgressTapGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = F271CF351D3C7D9F004159CD /* ProgressTapGestureRecognizer.m */; };
+		F272D9BE1F4A7BB3008880B1 /* AWSBillTableRow.m in Sources */ = {isa = PBXBuildFile; fileRef = F272D9BD1F4A7BB3008880B1 /* AWSBillTableRow.m */; };
+		F27624E41D15D66200E3D16B /* LegislatorVoteDetailTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F27624E31D15D66200E3D16B /* LegislatorVoteDetailTVC.m */; };
+		F27624F21D15D99900E3D16B /* LegislatorVoterDetailGraphTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F27624F01D15D99900E3D16B /* LegislatorVoterDetailGraphTableViewCell.m */; };
+		F27624F31D15D99900E3D16B /* LegislatorVoterDetailGraphTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F27624F11D15D99900E3D16B /* LegislatorVoterDetailGraphTableViewCell.xib */; };
+		F27AF5711EEDDCA100389068 /* Amendment.m in Sources */ = {isa = PBXBuildFile; fileRef = F27AF5701EEDDCA100389068 /* Amendment.m */; };
+		F27D28E71D6E9A640082E9C0 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F27D28E61D6E9A640082E9C0 /* MapKit.framework */; };
+		F280B4641E9C7E5600A9DAB2 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F2F738C91E916FC400F78908 /* libc++.tbd */; };
+		F280B4651E9C7E6500A9DAB2 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F2F738CB1E916FCD00F78908 /* libz.tbd */; };
+		F28D77191EE5F27D005EE5ED /* NSMutableDictionary+MutableDeepCopy.m in Sources */ = {isa = PBXBuildFile; fileRef = F28D77181EE5F27D005EE5ED /* NSMutableDictionary+MutableDeepCopy.m */; };
+		F28D771D1EE5F4AE005EE5ED /* NSMutableArray+MutableDeepCopy.m in Sources */ = {isa = PBXBuildFile; fileRef = F28D771C1EE5F4AE005EE5ED /* NSMutableArray+MutableDeepCopy.m */; };
+		F29611391F0ADA3E00A0A4B5 /* States.m in Sources */ = {isa = PBXBuildFile; fileRef = F29611381F0ADA3E00A0A4B5 /* States.m */; };
+		F29A8E971EEE58920096C474 /* NSDate+DateTime.m in Sources */ = {isa = PBXBuildFile; fileRef = F29A8E961EEE58920096C474 /* NSDate+DateTime.m */; };
+		F29FA8201F3EC86D008F65FE /* GlobalVars.m in Sources */ = {isa = PBXBuildFile; fileRef = F29FA81F1F3EC86D008F65FE /* GlobalVars.m */; };
+		F2A2CC031D14E4E100D3F601 /* NSDate+Time.m in Sources */ = {isa = PBXBuildFile; fileRef = F2A2CC021D14E4E100D3F601 /* NSDate+Time.m */; };
+		F2B3A4601F3693470022735B /* AWSCommitteeTableRow.m in Sources */ = {isa = PBXBuildFile; fileRef = F2B3A45F1F3693470022735B /* AWSCommitteeTableRow.m */; };
+		F2B6399F1F906C20000CF361 /* AboutTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2B6399E1F906C20000CF361 /* AboutTableViewController.m */; };
+		F2C7C67D1F8C49FA00449399 /* FavoriteNomination.m in Sources */ = {isa = PBXBuildFile; fileRef = F2C7C67C1F8C49FA00449399 /* FavoriteNomination.m */; };
+		F2C8F4501F329B5D00718476 /* Term.m in Sources */ = {isa = PBXBuildFile; fileRef = F2C8F44F1F329B5D00718476 /* Term.m */; };
+		F2D49B2E1EED9F9000D5B334 /* AmendmentsTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F2D49B2D1EED9F9000D5B334 /* AmendmentsTVC.m */; };
+		F2E76BEC1F95AD8A0042854E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2E76BEB1F95AD8A0042854E /* Main.storyboard */; };
+		F2E975D52155F33700EE58F6 /* location.png in Resources */ = {isa = PBXBuildFile; fileRef = F2E975D42155F33700EE58F6 /* location.png */; };
+		F2F0908C1CF2378F00151766 /* LegislatorVotesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2F0908B1CF2378F00151766 /* LegislatorVotesTableViewController.m */; };
+		F2F0EFED1D58368D0091E093 /* CommitteeDetailTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2F0EFEC1D58368D0091E093 /* CommitteeDetailTableViewController.m */; };
+		F2F382EE1D55910500D78F3F /* BillTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F2F382EC1D55910500D78F3F /* BillTableViewCell.m */; };
+		F2F382EF1D55910500D78F3F /* BillTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F2F382ED1D55910500D78F3F /* BillTableViewCell.xib */; };
+		F2F382F21D55957A00D78F3F /* BillShort.m in Sources */ = {isa = PBXBuildFile; fileRef = F2F382F11D55957A00D78F3F /* BillShort.m */; };
+		F2F89C4F1D47083F0049332D /* SummaryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2F89C4E1D47083F0049332D /* SummaryViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EFE159331B9272B200CB0CC4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EFE1590E1B9272B200CB0CC4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EFE159151B9272B200CB0CC4;
+			remoteInfo = Congress;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F2F638491E138E40003B20DD /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0707DC991D32F2D9004F7677 /* RollCall.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RollCall.h; sourceTree = "<group>"; };
+		0707DC9A1D32F2D9004F7677 /* RollCall.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RollCall.m; sourceTree = "<group>"; };
+		0736142D1CED2A78009F45D4 /* ContactTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactTableViewController.h; sourceTree = "<group>"; };
+		0736142E1CED2A78009F45D4 /* ContactTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactTableViewController.m; sourceTree = "<group>"; };
+		073C8A071BB71AC100795BA4 /* Committee.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Committee.h; sourceTree = "<group>"; };
+		073C8A081BB71AC100795BA4 /* Committee.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Committee.m; sourceTree = "<group>"; };
+		073F9E0A1D7B467E00253E7A /* FavoritesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FavoritesViewController.h; sourceTree = "<group>"; };
+		073F9E0B1D7B467E00253E7A /* FavoritesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FavoritesViewController.m; sourceTree = "<group>"; };
+		076DD9611D61211400D88F3B /* NominationShort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NominationShort.h; sourceTree = "<group>"; };
+		076DD9621D61211400D88F3B /* NominationShort.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NominationShort.m; sourceTree = "<group>"; };
+		077CD6FC1D61145A0078643F /* NominationTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NominationTableViewController.h; sourceTree = "<group>"; };
+		077CD6FD1D61145A0078643F /* NominationTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NominationTableViewController.m; sourceTree = "<group>"; };
+		0784796D1D15B20C00AB21F9 /* UIColor+Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Constants.h"; sourceTree = "<group>"; };
+		0784796E1D15B20C00AB21F9 /* UIColor+Constants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Constants.m"; sourceTree = "<group>"; };
+		0785A2F61BA7E98100E1F450 /* LegislatorDetailVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LegislatorDetailVC.h; sourceTree = "<group>"; };
+		0785A2F71BA7E98100E1F450 /* LegislatorDetailVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LegislatorDetailVC.m; sourceTree = "<group>"; };
+		07898E191D5A72CF009E70FD /* Nomination.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Nomination.h; sourceTree = "<group>"; };
+		07898E1A1D5A72CF009E70FD /* Nomination.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Nomination.m; sourceTree = "<group>"; };
+		0798D5181B98F505004559FE /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		079F62571BA49CAC00AB2336 /* Progress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Progress.h; sourceTree = "<group>"; };
+		079F62581BA49CAC00AB2336 /* Progress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Progress.m; sourceTree = "<group>"; };
+		07A1F6FC1E33D9F80019EF4B /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		07B4F7B31D446ADE001AE7F8 /* Bill.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bill.h; sourceTree = "<group>"; };
+		07B4F7B41D446ADE001AE7F8 /* Bill.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bill.m; sourceTree = "<group>"; };
+		07BD24851D15DE1B003D4664 /* LegislatorVoteCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LegislatorVoteCell.xib; sourceTree = "<group>"; };
+		07CA2DF71D73C62D007FBBB4 /* RealmFunctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RealmFunctions.h; sourceTree = "<group>"; };
+		07CA2DF81D73C62D007FBBB4 /* RealmFunctions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RealmFunctions.m; sourceTree = "<group>"; };
+		07CA2DFA1D73C733007FBBB4 /* FavoriteBill.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FavoriteBill.h; sourceTree = "<group>"; };
+		07CA2DFB1D73C733007FBBB4 /* FavoriteBill.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FavoriteBill.m; sourceTree = "<group>"; };
+		07CA2DFD1D73C7D2007FBBB4 /* libc++.1.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.1.tbd"; path = "usr/lib/libc++.1.tbd"; sourceTree = SDKROOT; };
+		07CA2DFF1D73C949007FBBB4 /* FavoriteLegislator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FavoriteLegislator.h; sourceTree = "<group>"; };
+		07CA2E001D73C949007FBBB4 /* FavoriteLegislator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FavoriteLegislator.m; sourceTree = "<group>"; };
+		07CA2E021D73C974007FBBB4 /* FavoriteCommittee.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FavoriteCommittee.h; sourceTree = "<group>"; };
+		07CA2E031D73C974007FBBB4 /* FavoriteCommittee.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FavoriteCommittee.m; sourceTree = "<group>"; };
+		07DAEBBA1D4414DB00218DEE /* BillDetailTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BillDetailTableViewController.h; sourceTree = "<group>"; };
+		07DAEBBB1D4414DB00218DEE /* BillDetailTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BillDetailTableViewController.m; sourceTree = "<group>"; };
+		20668E5B01C9B0D8AABD4CE0 /* Pods-CongressTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CongressTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CongressTests/Pods-CongressTests.debug.xcconfig"; sourceTree = "<group>"; };
+		4FF2B4F32C5F02A278854C20 /* Pods-CongressTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CongressTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CongressTests/Pods-CongressTests.release.xcconfig"; sourceTree = "<group>"; };
+		65C83D7D492399C63C918D0C /* Pods-Congress.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Congress.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Congress/Pods-Congress.debug.xcconfig"; sourceTree = "<group>"; };
+		8868ADA8FF3CF8A6A8045763 /* libPods-Congress.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Congress.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A405CB67449A272828C2742 /* Pods-Congress.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Congress.release.xcconfig"; path = "Pods/Target Support Files/Pods-Congress/Pods-Congress.release.xcconfig"; sourceTree = "<group>"; };
+		EF1429D31BB1064C0053395B /* LegislatorBioViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LegislatorBioViewController.h; sourceTree = "<group>"; };
+		EF1429D41BB1064C0053395B /* LegislatorBioViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LegislatorBioViewController.m; sourceTree = "<group>"; };
+		EF1551901B9E1E9C00CBADBA /* LegislatorHeaderCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LegislatorHeaderCell.xib; sourceTree = "<group>"; };
+		EF1551921B9E1F4C00CBADBA /* LegislatorHeaderCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LegislatorHeaderCell.h; sourceTree = "<group>"; };
+		EF1551931B9E1F4C00CBADBA /* LegislatorHeaderCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LegislatorHeaderCell.m; sourceTree = "<group>"; };
+		EF5234D31BAF5DD00019B26F /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		EF5234D41BAF5DD00019B26F /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
+		EF5234E21BAFB0510019B26F /* LegislatorMapOverlayRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LegislatorMapOverlayRenderer.h; sourceTree = "<group>"; };
+		EF5234E31BAFB0510019B26F /* LegislatorMapOverlayRenderer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LegislatorMapOverlayRenderer.m; sourceTree = "<group>"; };
+		EF908D691B9920AA00EA765B /* UIAlertController+Blocks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertController+Blocks.h"; sourceTree = "<group>"; };
+		EF908D6A1B9920AA00EA765B /* UIAlertController+Blocks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertController+Blocks.m"; sourceTree = "<group>"; };
+		EFC1C5B31B9C83C2002347BC /* Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		EFC1C5B41B9C8406002347BC /* Constants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Constants.m; sourceTree = "<group>"; };
+		EFD9BA811B9CE75000216DE1 /* UIViewController+PartialDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+PartialDictionary.h"; sourceTree = "<group>"; };
+		EFD9BA821B9CE75000216DE1 /* UIViewController+PartialDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+PartialDictionary.m"; sourceTree = "<group>"; };
+		EFD9BA8A1B9D19FC00216DE1 /* search.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = search.png; sourceTree = "<group>"; };
+		EFE159161B9272B200CB0CC4 /* Congress.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Congress.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFE1591A1B9272B200CB0CC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFE1591B1B9272B200CB0CC4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EFE1591D1B9272B200CB0CC4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EFE1591E1B9272B200CB0CC4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EFE159291B9272B200CB0CC4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EFE1592C1B9272B200CB0CC4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		EFE159321B9272B200CB0CC4 /* CongressTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CongressTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFE159371B9272B200CB0CC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFE159381B9272B200CB0CC4 /* CongressTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CongressTests.m; sourceTree = "<group>"; };
+		EFE159451B92751100CB0CC4 /* LegislatorsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LegislatorsViewController.h; sourceTree = "<group>"; };
+		EFE159461B92751100CB0CC4 /* LegislatorsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LegislatorsViewController.m; sourceTree = "<group>"; };
+		EFE159481B9276BA00CB0CC4 /* LegislatorTVCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LegislatorTVCell.h; sourceTree = "<group>"; };
+		EFE159491B9276BA00CB0CC4 /* LegislatorTVCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LegislatorTVCell.m; sourceTree = "<group>"; };
+		EFE1594E1B9283ED00CB0CC4 /* Legislator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Legislator.h; sourceTree = "<group>"; };
+		EFE1594F1B9283ED00CB0CC4 /* Legislator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Legislator.m; sourceTree = "<group>"; };
+		F2008F321EDD04D500690C12 /* VotesTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VotesTVC.h; sourceTree = "<group>"; };
+		F20B3F7E1D45C299004FDA8E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F20B3F801D45C2A1004FDA8E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F20B3F821D45C2A9004FDA8E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F20B3F841D45C2B0004FDA8E /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		F20B3F861D45C2B7004FDA8E /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		F20B3F881D45C2FF004FDA8E /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		F20B9447245D38650091A996 /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Realm.framework; sourceTree = "<group>"; };
+		F20DBA9A1D85FD1600CF0E82 /* ShowNoAnimationSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShowNoAnimationSegue.h; sourceTree = "<group>"; };
+		F20DBA9B1D85FD1600CF0E82 /* ShowNoAnimationSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShowNoAnimationSegue.m; sourceTree = "<group>"; };
+		F20E6FCD1EE5EA200055D0DD /* MutableDeepCopy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MutableDeepCopy.h; sourceTree = "<group>"; };
+		F20F8CEF1CF24295006C537F /* Vote.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Vote.h; sourceTree = "<group>"; };
+		F20F8CF01CF24295006C537F /* Vote.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Vote.m; sourceTree = "<group>"; };
+		F21BD57E1F3764B700EADAA4 /* RealmString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RealmString.h; sourceTree = "<group>"; };
+		F21BD57F1F3764B700EADAA4 /* RealmString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RealmString.m; sourceTree = "<group>"; };
+		F21E3A661D30AE05001E888D /* RollCallTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RollCallTVC.h; sourceTree = "<group>"; };
+		F21E3A671D30AE05001E888D /* RollCallTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RollCallTVC.m; sourceTree = "<group>"; };
+		F220F0F321CEF9B3002EF60E /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		F220F0F421CEF9B4002EF60E /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		F240E1A81D03D1D200A076BC /* LegislatorVoteCellTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LegislatorVoteCellTableViewCell.h; sourceTree = "<group>"; };
+		F240E1A91D03D1D200A076BC /* LegislatorVoteCellTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LegislatorVoteCellTableViewCell.m; sourceTree = "<group>"; };
+		F244B2221F802AC500D3A27A /* DataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataManager.h; sourceTree = "<group>"; };
+		F244B2231F802AC600D3A27A /* DataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataManager.m; sourceTree = "<group>"; };
+		F244B2251F802B1C00D3A27A /* VotesTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VotesTVC.m; sourceTree = "<group>"; };
+		F24C11A11CE81A5C008C328F /* WebpageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebpageViewController.h; sourceTree = "<group>"; };
+		F24C11A21CE81A5C008C328F /* WebpageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebpageViewController.m; sourceTree = "<group>"; };
+		F250B9181F0DD01400C8728D /* TermsTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TermsTVC.h; sourceTree = "<group>"; };
+		F250B9191F0DD01400C8728D /* TermsTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TermsTVC.m; sourceTree = "<group>"; };
+		F251897D1F8F0D170061B951 /* LeftMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftMenuViewController.h; sourceTree = "<group>"; };
+		F251897E1F8F0D170061B951 /* LeftMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftMenuViewController.m; sourceTree = "<group>"; };
+		F2547960234EC33B00BE858F /* Congress.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Congress.entitlements; sourceTree = "<group>"; };
+		F257767F1F3D6F3200F481F4 /* AWSVoteTableRow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AWSVoteTableRow.h; sourceTree = "<group>"; };
+		F25776801F3D6F3200F481F4 /* AWSVoteTableRow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AWSVoteTableRow.m; sourceTree = "<group>"; };
+		F2591FEF1E2DC0A500756455 /* CommitteesTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommitteesTVC.h; sourceTree = "<group>"; };
+		F2591FF01E2DC0A500756455 /* CommitteesTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommitteesTVC.m; sourceTree = "<group>"; };
+		F2591FF21E2DC18200756455 /* LegislatorTVCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LegislatorTVCell.xib; sourceTree = "<group>"; };
+		F2591FF41E2DC1BB00756455 /* NominationDetailTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NominationDetailTableViewController.h; sourceTree = "<group>"; };
+		F2591FF51E2DC1BB00756455 /* NominationDetailTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NominationDetailTableViewController.m; sourceTree = "<group>"; };
+		F259202F1E2DC2B300756455 /* TVCMethods.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TVCMethods.h; sourceTree = "<group>"; };
+		F25920301E2DC2B300756455 /* TVCMethods.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TVCMethods.m; sourceTree = "<group>"; };
+		F259E4291F2E6439005B56AF /* AWSLegislatorTableRow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AWSLegislatorTableRow.h; sourceTree = "<group>"; };
+		F259E42B1F2E64F0005B56AF /* AWSLegislatorTableRow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AWSLegislatorTableRow.m; sourceTree = "<group>"; };
+		F25CE5A81E42DB4A003E3416 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		F26ED88A1F74CEB800D25F11 /* AWSNominationTableRow.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AWSNominationTableRow.h; sourceTree = "<group>"; };
+		F26ED88B1F74CEB800D25F11 /* AWSNominationTableRow.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AWSNominationTableRow.m; sourceTree = "<group>"; };
+		F271B9ED1D484E550028E33B /* DynamicTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DynamicTableViewCell.h; sourceTree = "<group>"; };
+		F271B9EE1D484E550028E33B /* DynamicTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DynamicTableViewCell.m; sourceTree = "<group>"; };
+		F271B9F01D48710B0028E33B /* Action.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Action.h; sourceTree = "<group>"; };
+		F271B9F11D48710B0028E33B /* Action.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Action.m; sourceTree = "<group>"; };
+		F271B9F61D48734C0028E33B /* ActionTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActionTableViewController.h; sourceTree = "<group>"; };
+		F271B9F71D48734C0028E33B /* ActionTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActionTableViewController.m; sourceTree = "<group>"; };
+		F271CF341D3C7D9F004159CD /* ProgressTapGestureRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProgressTapGestureRecognizer.h; sourceTree = "<group>"; };
+		F271CF351D3C7D9F004159CD /* ProgressTapGestureRecognizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProgressTapGestureRecognizer.m; sourceTree = "<group>"; };
+		F272D9BC1F4A7BB3008880B1 /* AWSBillTableRow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AWSBillTableRow.h; sourceTree = "<group>"; };
+		F272D9BD1F4A7BB3008880B1 /* AWSBillTableRow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AWSBillTableRow.m; sourceTree = "<group>"; };
+		F27624E21D15D66200E3D16B /* LegislatorVoteDetailTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LegislatorVoteDetailTVC.h; sourceTree = "<group>"; };
+		F27624E31D15D66200E3D16B /* LegislatorVoteDetailTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LegislatorVoteDetailTVC.m; sourceTree = "<group>"; };
+		F27624EF1D15D99900E3D16B /* LegislatorVoterDetailGraphTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LegislatorVoterDetailGraphTableViewCell.h; sourceTree = "<group>"; };
+		F27624F01D15D99900E3D16B /* LegislatorVoterDetailGraphTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LegislatorVoterDetailGraphTableViewCell.m; sourceTree = "<group>"; };
+		F27624F11D15D99900E3D16B /* LegislatorVoterDetailGraphTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LegislatorVoterDetailGraphTableViewCell.xib; sourceTree = "<group>"; };
+		F27AF56F1EEDDCA100389068 /* Amendment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Amendment.h; sourceTree = "<group>"; };
+		F27AF5701EEDDCA100389068 /* Amendment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Amendment.m; sourceTree = "<group>"; };
+		F27D28E61D6E9A640082E9C0 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		F28D77171EE5F27D005EE5ED /* NSMutableDictionary+MutableDeepCopy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableDictionary+MutableDeepCopy.h"; sourceTree = "<group>"; };
+		F28D77181EE5F27D005EE5ED /* NSMutableDictionary+MutableDeepCopy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableDictionary+MutableDeepCopy.m"; sourceTree = "<group>"; };
+		F28D771B1EE5F4AE005EE5ED /* NSMutableArray+MutableDeepCopy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+MutableDeepCopy.h"; sourceTree = "<group>"; };
+		F28D771C1EE5F4AE005EE5ED /* NSMutableArray+MutableDeepCopy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+MutableDeepCopy.m"; sourceTree = "<group>"; };
+		F29611371F0ADA3E00A0A4B5 /* States.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = States.h; sourceTree = "<group>"; };
+		F29611381F0ADA3E00A0A4B5 /* States.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = States.m; sourceTree = "<group>"; };
+		F29A8E951EEE58920096C474 /* NSDate+DateTime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+DateTime.h"; sourceTree = "<group>"; };
+		F29A8E961EEE58920096C474 /* NSDate+DateTime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+DateTime.m"; sourceTree = "<group>"; };
+		F29FA81E1F3EC86D008F65FE /* GlobalVars.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GlobalVars.h; sourceTree = "<group>"; };
+		F29FA81F1F3EC86D008F65FE /* GlobalVars.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GlobalVars.m; sourceTree = "<group>"; };
+		F2A2CC011D14E4E100D3F601 /* NSDate+Time.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Time.h"; sourceTree = "<group>"; };
+		F2A2CC021D14E4E100D3F601 /* NSDate+Time.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Time.m"; sourceTree = "<group>"; };
+		F2B3A45E1F3693470022735B /* AWSCommitteeTableRow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AWSCommitteeTableRow.h; sourceTree = "<group>"; };
+		F2B3A45F1F3693470022735B /* AWSCommitteeTableRow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AWSCommitteeTableRow.m; sourceTree = "<group>"; };
+		F2B6399D1F906C20000CF361 /* AboutTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AboutTableViewController.h; sourceTree = "<group>"; };
+		F2B6399E1F906C20000CF361 /* AboutTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AboutTableViewController.m; sourceTree = "<group>"; };
+		F2C7C67B1F8C49FA00449399 /* FavoriteNomination.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FavoriteNomination.h; sourceTree = "<group>"; };
+		F2C7C67C1F8C49FA00449399 /* FavoriteNomination.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FavoriteNomination.m; sourceTree = "<group>"; };
+		F2C8F44E1F329B5D00718476 /* Term.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Term.h; sourceTree = "<group>"; };
+		F2C8F44F1F329B5D00718476 /* Term.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Term.m; sourceTree = "<group>"; };
+		F2D49B2C1EED9F9000D5B334 /* AmendmentsTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AmendmentsTVC.h; sourceTree = "<group>"; };
+		F2D49B2D1EED9F9000D5B334 /* AmendmentsTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AmendmentsTVC.m; sourceTree = "<group>"; };
+		F2E76BEB1F95AD8A0042854E /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		F2E975D42155F33700EE58F6 /* location.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = location.png; sourceTree = "<group>"; };
+		F2F0908A1CF2378F00151766 /* LegislatorVotesTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LegislatorVotesTableViewController.h; sourceTree = "<group>"; };
+		F2F0908B1CF2378F00151766 /* LegislatorVotesTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LegislatorVotesTableViewController.m; sourceTree = "<group>"; };
+		F2F0EFEB1D58368D0091E093 /* CommitteeDetailTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommitteeDetailTableViewController.h; sourceTree = "<group>"; };
+		F2F0EFEC1D58368D0091E093 /* CommitteeDetailTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommitteeDetailTableViewController.m; sourceTree = "<group>"; };
+		F2F382EB1D55910500D78F3F /* BillTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BillTableViewCell.h; sourceTree = "<group>"; };
+		F2F382EC1D55910500D78F3F /* BillTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BillTableViewCell.m; sourceTree = "<group>"; };
+		F2F382ED1D55910500D78F3F /* BillTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BillTableViewCell.xib; sourceTree = "<group>"; };
+		F2F382F01D55957A00D78F3F /* BillShort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BillShort.h; sourceTree = "<group>"; };
+		F2F382F11D55957A00D78F3F /* BillShort.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BillShort.m; sourceTree = "<group>"; };
+		F2F738C91E916FC400F78908 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		F2F738CB1E916FCD00F78908 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		F2F89C4D1D47083F0049332D /* SummaryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SummaryViewController.h; sourceTree = "<group>"; };
+		F2F89C4E1D47083F0049332D /* SummaryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SummaryViewController.m; sourceTree = "<group>"; };
+		F94B78C0B108FD57534A1B6E /* libPods-CongressTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CongressTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EFE159131B9272B200CB0CC4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F280B4651E9C7E6500A9DAB2 /* libz.tbd in Frameworks */,
+				F280B4641E9C7E5600A9DAB2 /* libc++.tbd in Frameworks */,
+				F25CE5A91E42DB4A003E3416 /* CoreTelephony.framework in Frameworks */,
+				07CA2DFE1D73C7D2007FBBB4 /* libc++.1.tbd in Frameworks */,
+				F20B3F891D45C2FF004FDA8E /* MessageUI.framework in Frameworks */,
+				F20B3F871D45C2B7004FDA8E /* ImageIO.framework in Frameworks */,
+				F20B3F851D45C2B0004FDA8E /* QuartzCore.framework in Frameworks */,
+				F20B3F831D45C2A9004FDA8E /* CoreGraphics.framework in Frameworks */,
+				F20B9448245D38650091A996 /* Realm.framework in Frameworks */,
+				F27D28E71D6E9A640082E9C0 /* MapKit.framework in Frameworks */,
+				F20B3F811D45C2A1004FDA8E /* Foundation.framework in Frameworks */,
+				F20B3F7F1D45C299004FDA8E /* UIKit.framework in Frameworks */,
+				F12FBE3486E99B0F693F1BD8 /* libPods-Congress.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFE1592F1B9272B200CB0CC4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37730E38F2FAD70BC14E320E /* libPods-CongressTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A9B215F8DFEB2A1620ADF2DA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F2F738CB1E916FCD00F78908 /* libz.tbd */,
+				F2F738C91E916FC400F78908 /* libc++.tbd */,
+				F25CE5A81E42DB4A003E3416 /* CoreTelephony.framework */,
+				07A1F6FC1E33D9F80019EF4B /* StoreKit.framework */,
+				07CA2DFD1D73C7D2007FBBB4 /* libc++.1.tbd */,
+				F27D28E61D6E9A640082E9C0 /* MapKit.framework */,
+				F20B3F881D45C2FF004FDA8E /* MessageUI.framework */,
+				F20B3F861D45C2B7004FDA8E /* ImageIO.framework */,
+				F20B3F841D45C2B0004FDA8E /* QuartzCore.framework */,
+				F20B3F821D45C2A9004FDA8E /* CoreGraphics.framework */,
+				F20B3F801D45C2A1004FDA8E /* Foundation.framework */,
+				F20B3F7E1D45C299004FDA8E /* UIKit.framework */,
+				8868ADA8FF3CF8A6A8045763 /* libPods-Congress.a */,
+				F94B78C0B108FD57534A1B6E /* libPods-CongressTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E0C8E002FF95C0A11FF39D8C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				65C83D7D492399C63C918D0C /* Pods-Congress.debug.xcconfig */,
+				8A405CB67449A272828C2742 /* Pods-Congress.release.xcconfig */,
+				20668E5B01C9B0D8AABD4CE0 /* Pods-CongressTests.debug.xcconfig */,
+				4FF2B4F32C5F02A278854C20 /* Pods-CongressTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EFE1590D1B9272B200CB0CC4 = {
+			isa = PBXGroup;
+			children = (
+				F20B9447245D38650091A996 /* Realm.framework */,
+				0798D5181B98F505004559FE /* SystemConfiguration.framework */,
+				EFE159181B9272B200CB0CC4 /* Congress */,
+				EFE159351B9272B200CB0CC4 /* CongressTests */,
+				EFE159171B9272B200CB0CC4 /* Products */,
+				EFE159441B9273EA00CB0CC4 /* Resources */,
+				E0C8E002FF95C0A11FF39D8C /* Pods */,
+				A9B215F8DFEB2A1620ADF2DA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EFE159171B9272B200CB0CC4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EFE159161B9272B200CB0CC4 /* Congress.app */,
+				EFE159321B9272B200CB0CC4 /* CongressTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EFE159181B9272B200CB0CC4 /* Congress */ = {
+			isa = PBXGroup;
+			children = (
+				F2547960234EC33B00BE858F /* Congress.entitlements */,
+				F2B6399D1F906C20000CF361 /* AboutTableViewController.h */,
+				F2B6399E1F906C20000CF361 /* AboutTableViewController.m */,
+				F271B9F01D48710B0028E33B /* Action.h */,
+				F271B9F11D48710B0028E33B /* Action.m */,
+				F271B9F61D48734C0028E33B /* ActionTableViewController.h */,
+				F271B9F71D48734C0028E33B /* ActionTableViewController.m */,
+				F27AF56F1EEDDCA100389068 /* Amendment.h */,
+				F27AF5701EEDDCA100389068 /* Amendment.m */,
+				F2D49B2C1EED9F9000D5B334 /* AmendmentsTVC.h */,
+				F2D49B2D1EED9F9000D5B334 /* AmendmentsTVC.m */,
+				EFE1591D1B9272B200CB0CC4 /* AppDelegate.h */,
+				EFE1591E1B9272B200CB0CC4 /* AppDelegate.m */,
+				F272D9BC1F4A7BB3008880B1 /* AWSBillTableRow.h */,
+				F272D9BD1F4A7BB3008880B1 /* AWSBillTableRow.m */,
+				F2B3A45E1F3693470022735B /* AWSCommitteeTableRow.h */,
+				F2B3A45F1F3693470022735B /* AWSCommitteeTableRow.m */,
+				F259E4291F2E6439005B56AF /* AWSLegislatorTableRow.h */,
+				F259E42B1F2E64F0005B56AF /* AWSLegislatorTableRow.m */,
+				F26ED88A1F74CEB800D25F11 /* AWSNominationTableRow.h */,
+				F26ED88B1F74CEB800D25F11 /* AWSNominationTableRow.m */,
+				F257767F1F3D6F3200F481F4 /* AWSVoteTableRow.h */,
+				F25776801F3D6F3200F481F4 /* AWSVoteTableRow.m */,
+				07B4F7B31D446ADE001AE7F8 /* Bill.h */,
+				07B4F7B41D446ADE001AE7F8 /* Bill.m */,
+				F2F382F01D55957A00D78F3F /* BillShort.h */,
+				F2F382F11D55957A00D78F3F /* BillShort.m */,
+				F2F382EB1D55910500D78F3F /* BillTableViewCell.h */,
+				F2F382EC1D55910500D78F3F /* BillTableViewCell.m */,
+				F2F382ED1D55910500D78F3F /* BillTableViewCell.xib */,
+				07DAEBBA1D4414DB00218DEE /* BillDetailTableViewController.h */,
+				07DAEBBB1D4414DB00218DEE /* BillDetailTableViewController.m */,
+				073C8A071BB71AC100795BA4 /* Committee.h */,
+				073C8A081BB71AC100795BA4 /* Committee.m */,
+				F2F0EFEB1D58368D0091E093 /* CommitteeDetailTableViewController.h */,
+				F2F0EFEC1D58368D0091E093 /* CommitteeDetailTableViewController.m */,
+				F2591FEF1E2DC0A500756455 /* CommitteesTVC.h */,
+				F2591FF01E2DC0A500756455 /* CommitteesTVC.m */,
+				EFC1C5B31B9C83C2002347BC /* Constants.h */,
+				EFC1C5B41B9C8406002347BC /* Constants.m */,
+				0736142D1CED2A78009F45D4 /* ContactTableViewController.h */,
+				0736142E1CED2A78009F45D4 /* ContactTableViewController.m */,
+				F244B2221F802AC500D3A27A /* DataManager.h */,
+				F244B2231F802AC600D3A27A /* DataManager.m */,
+				F271B9ED1D484E550028E33B /* DynamicTableViewCell.h */,
+				F271B9EE1D484E550028E33B /* DynamicTableViewCell.m */,
+				07CA2DFA1D73C733007FBBB4 /* FavoriteBill.h */,
+				07CA2DFB1D73C733007FBBB4 /* FavoriteBill.m */,
+				07CA2E021D73C974007FBBB4 /* FavoriteCommittee.h */,
+				07CA2E031D73C974007FBBB4 /* FavoriteCommittee.m */,
+				07CA2DFF1D73C949007FBBB4 /* FavoriteLegislator.h */,
+				07CA2E001D73C949007FBBB4 /* FavoriteLegislator.m */,
+				F2C7C67B1F8C49FA00449399 /* FavoriteNomination.h */,
+				F2C7C67C1F8C49FA00449399 /* FavoriteNomination.m */,
+				073F9E0A1D7B467E00253E7A /* FavoritesViewController.h */,
+				073F9E0B1D7B467E00253E7A /* FavoritesViewController.m */,
+				F29FA81E1F3EC86D008F65FE /* GlobalVars.h */,
+				F29FA81F1F3EC86D008F65FE /* GlobalVars.m */,
+				EFE1592B1B9272B200CB0CC4 /* LaunchScreen.xib */,
+				F251897D1F8F0D170061B951 /* LeftMenuViewController.h */,
+				F251897E1F8F0D170061B951 /* LeftMenuViewController.m */,
+				EFE1594E1B9283ED00CB0CC4 /* Legislator.h */,
+				EFE1594F1B9283ED00CB0CC4 /* Legislator.m */,
+				EF1429D31BB1064C0053395B /* LegislatorBioViewController.h */,
+				EF1429D41BB1064C0053395B /* LegislatorBioViewController.m */,
+				0785A2F61BA7E98100E1F450 /* LegislatorDetailVC.h */,
+				0785A2F71BA7E98100E1F450 /* LegislatorDetailVC.m */,
+				EF1551901B9E1E9C00CBADBA /* LegislatorHeaderCell.xib */,
+				EF1551921B9E1F4C00CBADBA /* LegislatorHeaderCell.h */,
+				EF1551931B9E1F4C00CBADBA /* LegislatorHeaderCell.m */,
+				EF5234E21BAFB0510019B26F /* LegislatorMapOverlayRenderer.h */,
+				EF5234E31BAFB0510019B26F /* LegislatorMapOverlayRenderer.m */,
+				EFE159481B9276BA00CB0CC4 /* LegislatorTVCell.h */,
+				EFE159491B9276BA00CB0CC4 /* LegislatorTVCell.m */,
+				F2591FF21E2DC18200756455 /* LegislatorTVCell.xib */,
+				EFE159451B92751100CB0CC4 /* LegislatorsViewController.h */,
+				EFE159461B92751100CB0CC4 /* LegislatorsViewController.m */,
+				07BD24851D15DE1B003D4664 /* LegislatorVoteCell.xib */,
+				F240E1A81D03D1D200A076BC /* LegislatorVoteCellTableViewCell.h */,
+				F240E1A91D03D1D200A076BC /* LegislatorVoteCellTableViewCell.m */,
+				F27624EF1D15D99900E3D16B /* LegislatorVoterDetailGraphTableViewCell.h */,
+				F27624F01D15D99900E3D16B /* LegislatorVoterDetailGraphTableViewCell.m */,
+				F27624F11D15D99900E3D16B /* LegislatorVoterDetailGraphTableViewCell.xib */,
+				F27624E21D15D66200E3D16B /* LegislatorVoteDetailTVC.h */,
+				F27624E31D15D66200E3D16B /* LegislatorVoteDetailTVC.m */,
+				F2F0908A1CF2378F00151766 /* LegislatorVotesTableViewController.h */,
+				F2F0908B1CF2378F00151766 /* LegislatorVotesTableViewController.m */,
+				F2E975D42155F33700EE58F6 /* location.png */,
+				F2E76BEB1F95AD8A0042854E /* Main.storyboard */,
+				EF5234D31BAF5DD00019B26F /* MapViewController.h */,
+				EF5234D41BAF5DD00019B26F /* MapViewController.m */,
+				F220F0F421CEF9B4002EF60E /* MBProgressHUD.h */,
+				F220F0F321CEF9B3002EF60E /* MBProgressHUD.m */,
+				F20E6FCD1EE5EA200055D0DD /* MutableDeepCopy.h */,
+				07898E191D5A72CF009E70FD /* Nomination.h */,
+				07898E1A1D5A72CF009E70FD /* Nomination.m */,
+				076DD9611D61211400D88F3B /* NominationShort.h */,
+				076DD9621D61211400D88F3B /* NominationShort.m */,
+				F2591FF41E2DC1BB00756455 /* NominationDetailTableViewController.h */,
+				F2591FF51E2DC1BB00756455 /* NominationDetailTableViewController.m */,
+				077CD6FC1D61145A0078643F /* NominationTableViewController.h */,
+				077CD6FD1D61145A0078643F /* NominationTableViewController.m */,
+				F2A2CC011D14E4E100D3F601 /* NSDate+Time.h */,
+				F28D77171EE5F27D005EE5ED /* NSMutableDictionary+MutableDeepCopy.h */,
+				F28D77181EE5F27D005EE5ED /* NSMutableDictionary+MutableDeepCopy.m */,
+				F28D771B1EE5F4AE005EE5ED /* NSMutableArray+MutableDeepCopy.h */,
+				F28D771C1EE5F4AE005EE5ED /* NSMutableArray+MutableDeepCopy.m */,
+				F2A2CC021D14E4E100D3F601 /* NSDate+Time.m */,
+				079F62571BA49CAC00AB2336 /* Progress.h */,
+				079F62581BA49CAC00AB2336 /* Progress.m */,
+				F271CF341D3C7D9F004159CD /* ProgressTapGestureRecognizer.h */,
+				F271CF351D3C7D9F004159CD /* ProgressTapGestureRecognizer.m */,
+				07CA2DF71D73C62D007FBBB4 /* RealmFunctions.h */,
+				07CA2DF81D73C62D007FBBB4 /* RealmFunctions.m */,
+				F21BD57E1F3764B700EADAA4 /* RealmString.h */,
+				F21BD57F1F3764B700EADAA4 /* RealmString.m */,
+				0707DC991D32F2D9004F7677 /* RollCall.h */,
+				0707DC9A1D32F2D9004F7677 /* RollCall.m */,
+				F21E3A661D30AE05001E888D /* RollCallTVC.h */,
+				F21E3A671D30AE05001E888D /* RollCallTVC.m */,
+				F20DBA9A1D85FD1600CF0E82 /* ShowNoAnimationSegue.h */,
+				F20DBA9B1D85FD1600CF0E82 /* ShowNoAnimationSegue.m */,
+				F29A8E951EEE58920096C474 /* NSDate+DateTime.h */,
+				F29A8E961EEE58920096C474 /* NSDate+DateTime.m */,
+				F29611371F0ADA3E00A0A4B5 /* States.h */,
+				F29611381F0ADA3E00A0A4B5 /* States.m */,
+				F2F89C4D1D47083F0049332D /* SummaryViewController.h */,
+				F2F89C4E1D47083F0049332D /* SummaryViewController.m */,
+				F2C8F44E1F329B5D00718476 /* Term.h */,
+				F2C8F44F1F329B5D00718476 /* Term.m */,
+				F250B9181F0DD01400C8728D /* TermsTVC.h */,
+				F250B9191F0DD01400C8728D /* TermsTVC.m */,
+				F259202F1E2DC2B300756455 /* TVCMethods.h */,
+				F25920301E2DC2B300756455 /* TVCMethods.m */,
+				EF908D691B9920AA00EA765B /* UIAlertController+Blocks.h */,
+				EF908D6A1B9920AA00EA765B /* UIAlertController+Blocks.m */,
+				0784796D1D15B20C00AB21F9 /* UIColor+Constants.h */,
+				0784796E1D15B20C00AB21F9 /* UIColor+Constants.m */,
+				EFD9BA811B9CE75000216DE1 /* UIViewController+PartialDictionary.h */,
+				EFD9BA821B9CE75000216DE1 /* UIViewController+PartialDictionary.m */,
+				F20F8CEF1CF24295006C537F /* Vote.h */,
+				F20F8CF01CF24295006C537F /* Vote.m */,
+				F2008F321EDD04D500690C12 /* VotesTVC.h */,
+				F244B2251F802B1C00D3A27A /* VotesTVC.m */,
+				F24C11A11CE81A5C008C328F /* WebpageViewController.h */,
+				F24C11A21CE81A5C008C328F /* WebpageViewController.m */,
+				EFE159291B9272B200CB0CC4 /* Images.xcassets */,
+				EFE159191B9272B200CB0CC4 /* Supporting Files */,
+			);
+			path = Congress;
+			sourceTree = "<group>";
+		};
+		EFE159191B9272B200CB0CC4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EFE1591A1B9272B200CB0CC4 /* Info.plist */,
+				EFE1591B1B9272B200CB0CC4 /* main.m */,
+				EFD9BA8A1B9D19FC00216DE1 /* search.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EFE159351B9272B200CB0CC4 /* CongressTests */ = {
+			isa = PBXGroup;
+			children = (
+				EFE159381B9272B200CB0CC4 /* CongressTests.m */,
+				EFE159361B9272B200CB0CC4 /* Supporting Files */,
+			);
+			path = CongressTests;
+			sourceTree = "<group>";
+		};
+		EFE159361B9272B200CB0CC4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EFE159371B9272B200CB0CC4 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EFE159441B9273EA00CB0CC4 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
+			path = Congress.xcodeproj;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EFE159151B9272B200CB0CC4 /* Congress */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFE1593C1B9272B200CB0CC4 /* Build configuration list for PBXNativeTarget "Congress" */;
+			buildPhases = (
+				AE1127821E8347283D0F54D2 /* [CP] Check Pods Manifest.lock */,
+				EFE159121B9272B200CB0CC4 /* Sources */,
+				EFE159131B9272B200CB0CC4 /* Frameworks */,
+				EFE159141B9272B200CB0CC4 /* Resources */,
+				2D072ED928A20E9C4B5EB762 /* [CP] Copy Pods Resources */,
+				F2F638491E138E40003B20DD /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Congress;
+			productName = Congress;
+			productReference = EFE159161B9272B200CB0CC4 /* Congress.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EFE159311B9272B200CB0CC4 /* CongressTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFE1593F1B9272B200CB0CC4 /* Build configuration list for PBXNativeTarget "CongressTests" */;
+			buildPhases = (
+				3E950111414A7E237C34508A /* [CP] Check Pods Manifest.lock */,
+				EFE1592E1B9272B200CB0CC4 /* Sources */,
+				EFE1592F1B9272B200CB0CC4 /* Frameworks */,
+				EFE159301B9272B200CB0CC4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EFE159341B9272B200CB0CC4 /* PBXTargetDependency */,
+			);
+			name = CongressTests;
+			productName = CongressTests;
+			productReference = EFE159321B9272B200CB0CC4 /* CongressTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EFE1590E1B9272B200CB0CC4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1200;
+				ORGANIZATIONNAME = "Eric Panchenko";
+				TargetAttributes = {
+					EFE159151B9272B200CB0CC4 = {
+						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = XYVPUQC5N9;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					EFE159311B9272B200CB0CC4 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = EFE159151B9272B200CB0CC4;
+					};
+				};
+			};
+			buildConfigurationList = EFE159111B9272B200CB0CC4 /* Build configuration list for PBXProject "Congress" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EFE1590D1B9272B200CB0CC4;
+			productRefGroup = EFE159171B9272B200CB0CC4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EFE159151B9272B200CB0CC4 /* Congress */,
+				EFE159311B9272B200CB0CC4 /* CongressTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EFE159141B9272B200CB0CC4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF1551911B9E1E9C00CBADBA /* LegislatorHeaderCell.xib in Resources */,
+				F2E76BEC1F95AD8A0042854E /* Main.storyboard in Resources */,
+				F2E975D52155F33700EE58F6 /* location.png in Resources */,
+				F2591FF31E2DC18200756455 /* LegislatorTVCell.xib in Resources */,
+				EFE1592D1B9272B200CB0CC4 /* LaunchScreen.xib in Resources */,
+				EFD9BA8B1B9D19FC00216DE1 /* search.png in Resources */,
+				07BD24861D15DE1B003D4664 /* LegislatorVoteCell.xib in Resources */,
+				F27624F31D15D99900E3D16B /* LegislatorVoterDetailGraphTableViewCell.xib in Resources */,
+				F2F382EF1D55910500D78F3F /* BillTableViewCell.xib in Resources */,
+				EFE1592A1B9272B200CB0CC4 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFE159301B9272B200CB0CC4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2D072ED928A20E9C4B5EB762 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Congress/Pods-Congress-resources.sh",
+				"${PODS_ROOT}/iOS-Slide-Menu/SlideMenu/Source/Assets/menu-button.png",
+				"${PODS_ROOT}/iOS-Slide-Menu/SlideMenu/Source/Assets/menu-button@2x.png",
+				"${PODS_ROOT}/vfrReader/Graphics/Reader-Button-H.png",
+				"${PODS_ROOT}/vfrReader/Graphics/Reader-Button-H@2x.png",
+				"${PODS_ROOT}/vfrReader/Graphics/Reader-Button-N.png",
+				"${PODS_ROOT}/vfrReader/Graphics/Reader-Button-N@2x.png",
+				"${PODS_ROOT}/vfrReader/Graphics/Reader-Email.png",
+				"${PODS_ROOT}/vfrReader/Graphics/Reader-Email@2x.png",
+				"${PODS_ROOT}/vfrReader/Graphics/Reader-Export.png",
+				"${PODS_ROOT}/vfrReader/Graphics/Reader-Export@2x.png",
+				"${PODS_ROOT}/vfrReader/Graphics/Reader-Mark-N.png",
+				"${PODS_ROOT}/vfrReader/Graphics/Reader-Mark-N@2x.png",
+				"${PODS_ROOT}/vfrReader/Graphics/Reader-Mark-Y.png",
+				"${PODS_ROOT}/vfrReader/Graphics/Reader-Mark-Y@2x.png",
+				"${PODS_ROOT}/vfrReader/Graphics/Reader-Print.png",
+				"${PODS_ROOT}/vfrReader/Graphics/Reader-Print@2x.png",
+				"${PODS_ROOT}/vfrReader/Graphics/Reader-Thumbs.png",
+				"${PODS_ROOT}/vfrReader/Graphics/Reader-Thumbs@2x.png",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/menu-button.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/menu-button@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Reader-Button-H.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Reader-Button-H@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Reader-Button-N.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Reader-Button-N@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Reader-Email.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Reader-Email@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Reader-Export.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Reader-Export@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Reader-Mark-N.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Reader-Mark-N@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Reader-Mark-Y.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Reader-Mark-Y@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Reader-Print.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Reader-Print@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Reader-Thumbs.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Reader-Thumbs@2x.png",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Congress/Pods-Congress-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3E950111414A7E237C34508A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CongressTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AE1127821E8347283D0F54D2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Congress-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EFE159121B9272B200CB0CC4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F26ED88C1F74CEB800D25F11 /* AWSNominationTableRow.m in Sources */,
+				EFE1591F1B9272B200CB0CC4 /* AppDelegate.m in Sources */,
+				F20DBA9C1D85FD1600CF0E82 /* ShowNoAnimationSegue.m in Sources */,
+				073C8A091BB71AC100795BA4 /* Committee.m in Sources */,
+				F271CF361D3C7D9F004159CD /* ProgressTapGestureRecognizer.m in Sources */,
+				F271B9F81D48734C0028E33B /* ActionTableViewController.m in Sources */,
+				F29A8E971EEE58920096C474 /* NSDate+DateTime.m in Sources */,
+				F271B9EF1D484E550028E33B /* DynamicTableViewCell.m in Sources */,
+				F2A2CC031D14E4E100D3F601 /* NSDate+Time.m in Sources */,
+				07CA2DF91D73C62D007FBBB4 /* RealmFunctions.m in Sources */,
+				F2D49B2E1EED9F9000D5B334 /* AmendmentsTVC.m in Sources */,
+				F244B2261F802B1C00D3A27A /* VotesTVC.m in Sources */,
+				07CA2DFC1D73C733007FBBB4 /* FavoriteBill.m in Sources */,
+				F27624F21D15D99900E3D16B /* LegislatorVoterDetailGraphTableViewCell.m in Sources */,
+				EFE1591C1B9272B200CB0CC4 /* main.m in Sources */,
+				07CA2E011D73C949007FBBB4 /* FavoriteLegislator.m in Sources */,
+				076DD9631D61211400D88F3B /* NominationShort.m in Sources */,
+				F20F8CF11CF24295006C537F /* Vote.m in Sources */,
+				F2B3A4601F3693470022735B /* AWSCommitteeTableRow.m in Sources */,
+				F251897F1F8F0D170061B951 /* LeftMenuViewController.m in Sources */,
+				F28D771D1EE5F4AE005EE5ED /* NSMutableArray+MutableDeepCopy.m in Sources */,
+				F29FA8201F3EC86D008F65FE /* GlobalVars.m in Sources */,
+				F2F89C4F1D47083F0049332D /* SummaryViewController.m in Sources */,
+				07B4F7B51D446ADE001AE7F8 /* Bill.m in Sources */,
+				F271B9F21D48710B0028E33B /* Action.m in Sources */,
+				F220F0F521CEF9B4002EF60E /* MBProgressHUD.m in Sources */,
+				0785A2F81BA7E98100E1F450 /* LegislatorDetailVC.m in Sources */,
+				07DAEBBC1D4414DB00218DEE /* BillDetailTableViewController.m in Sources */,
+				F29611391F0ADA3E00A0A4B5 /* States.m in Sources */,
+				07CA2E041D73C974007FBBB4 /* FavoriteCommittee.m in Sources */,
+				F21E3A681D30AE05001E888D /* RollCallTVC.m in Sources */,
+				EFE159501B9283ED00CB0CC4 /* Legislator.m in Sources */,
+				EFE1594A1B9276BA00CB0CC4 /* LegislatorTVCell.m in Sources */,
+				0784796F1D15B20C00AB21F9 /* UIColor+Constants.m in Sources */,
+				F2F0EFED1D58368D0091E093 /* CommitteeDetailTableViewController.m in Sources */,
+				F25776811F3D6F3200F481F4 /* AWSVoteTableRow.m in Sources */,
+				F2C7C67D1F8C49FA00449399 /* FavoriteNomination.m in Sources */,
+				077CD6FE1D61145A0078643F /* NominationTableViewController.m in Sources */,
+				0707DC9B1D32F2D9004F7677 /* RollCall.m in Sources */,
+				F27624E41D15D66200E3D16B /* LegislatorVoteDetailTVC.m in Sources */,
+				EFD9BA831B9CE75000216DE1 /* UIViewController+PartialDictionary.m in Sources */,
+				F2591FF11E2DC0A500756455 /* CommitteesTVC.m in Sources */,
+				EFE159471B92751100CB0CC4 /* LegislatorsViewController.m in Sources */,
+				F2C8F4501F329B5D00718476 /* Term.m in Sources */,
+				F272D9BE1F4A7BB3008880B1 /* AWSBillTableRow.m in Sources */,
+				F28D77191EE5F27D005EE5ED /* NSMutableDictionary+MutableDeepCopy.m in Sources */,
+				EF908D6B1B9920AA00EA765B /* UIAlertController+Blocks.m in Sources */,
+				F2F382EE1D55910500D78F3F /* BillTableViewCell.m in Sources */,
+				F25920311E2DC2B300756455 /* TVCMethods.m in Sources */,
+				F21BD5801F3764B700EADAA4 /* RealmString.m in Sources */,
+				F2B6399F1F906C20000CF361 /* AboutTableViewController.m in Sources */,
+				07898E1B1D5A72CF009E70FD /* Nomination.m in Sources */,
+				0736142F1CED2A78009F45D4 /* ContactTableViewController.m in Sources */,
+				EF5234D51BAF5DD00019B26F /* MapViewController.m in Sources */,
+				079F62591BA49CAC00AB2336 /* Progress.m in Sources */,
+				F244B2241F802AC600D3A27A /* DataManager.m in Sources */,
+				EF5234E41BAFB0510019B26F /* LegislatorMapOverlayRenderer.m in Sources */,
+				F240E1AA1D03D1D200A076BC /* LegislatorVoteCellTableViewCell.m in Sources */,
+				EF1551941B9E1F4C00CBADBA /* LegislatorHeaderCell.m in Sources */,
+				F250B91A1F0DD01400C8728D /* TermsTVC.m in Sources */,
+				073F9E0C1D7B467E00253E7A /* FavoritesViewController.m in Sources */,
+				F259E42C1F2E64F0005B56AF /* AWSLegislatorTableRow.m in Sources */,
+				F27AF5711EEDDCA100389068 /* Amendment.m in Sources */,
+				F2F382F21D55957A00D78F3F /* BillShort.m in Sources */,
+				F2591FF61E2DC1BB00756455 /* NominationDetailTableViewController.m in Sources */,
+				F2F0908C1CF2378F00151766 /* LegislatorVotesTableViewController.m in Sources */,
+				F24C11A31CE81A5C008C328F /* WebpageViewController.m in Sources */,
+				EFC1C5B51B9C8406002347BC /* Constants.m in Sources */,
+				EF1429D51BB1064C0053395B /* LegislatorBioViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFE1592E1B9272B200CB0CC4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFE159391B9272B200CB0CC4 /* CongressTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EFE159341B9272B200CB0CC4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EFE159151B9272B200CB0CC4 /* Congress */;
+			targetProxy = EFE159331B9272B200CB0CC4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EFE1592B1B9272B200CB0CC4 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EFE1592C1B9272B200CB0CC4 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EFE1593A1B9272B200CB0CC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EFE1593B1B9272B200CB0CC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EFE1593D1B9272B200CB0CC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 65C83D7D492399C63C918D0C /* Pods-Congress.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Congress/Congress.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 5.01;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = XYVPUQC5N9;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+				);
+				INFOPLIST_FILE = Congress/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 5.01;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.choose4software.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = NO;
+			};
+			name = Debug;
+		};
+		EFE1593E1B9272B200CB0CC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A405CB67449A272828C2742 /* Pods-Congress.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Congress/Congress.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 5.01;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = XYVPUQC5N9;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+				);
+				INFOPLIST_FILE = Congress/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 5.01;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.choose4software.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = NO;
+			};
+			name = Release;
+		};
+		EFE159401B9272B200CB0CC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 20668E5B01C9B0D8AABD4CE0 /* Pods-CongressTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CongressTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Eric-Panchenko.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Congress.app/Congress";
+			};
+			name = Debug;
+		};
+		EFE159411B9272B200CB0CC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4FF2B4F32C5F02A278854C20 /* Pods-CongressTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CongressTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Eric-Panchenko.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Congress.app/Congress";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EFE159111B9272B200CB0CC4 /* Build configuration list for PBXProject "Congress" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFE1593A1B9272B200CB0CC4 /* Debug */,
+				EFE1593B1B9272B200CB0CC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFE1593C1B9272B200CB0CC4 /* Build configuration list for PBXNativeTarget "Congress" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFE1593D1B9272B200CB0CC4 /* Debug */,
+				EFE1593E1B9272B200CB0CC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFE1593F1B9272B200CB0CC4 /* Build configuration list for PBXNativeTarget "CongressTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFE159401B9272B200CB0CC4 /* Debug */,
+				EFE159411B9272B200CB0CC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EFE1590E1B9272B200CB0CC4 /* Project object */;
+}
